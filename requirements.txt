@@ -6,3 +6,8 @@ llama-index==0.9.39
 einops 
 accelerate  
 bitsandbytes
+langchain-groq
+torch 
+diffusers
+streamlit
+-e . 
