@@ -6,7 +6,7 @@ from diffusers import StableDiffusionXLPipeline, DPMSolverSinglestepScheduler
 
 # image = Image.open("")
 
-# Load model.
+# # Load model.
 pipe = StableDiffusionXLPipeline.from_pretrained("sd-community/sdxl-flash", torch_dtype=torch.float16).to("cuda")
 pipe.scheduler = DPMSolverSinglestepScheduler.from_config(pipe.scheduler.config, timestep_spacing="trailing")
 
@@ -42,12 +42,12 @@ if prompt := st.chat_input("Write Your Topic"):
     image = Image.open("output/output.png")
     image1 = Image.open("output/output2.png")
     image2 = Image.open("output/output3.png")
-    image3 = Image.open("output/output4.png")
-    image4 = Image.open("output/output5.png")
+    # image3 = Image.open("output/output4.png")
+    # image4 = Image.open("output/output5.png")
     st.image(image,width=200)
     st.image(image1,width=200)
     st.image(image2,width=200)
-    st.image(image=image3, width=200)
-    st.image(image=image4, width=200)
+    # st.image(image=image3, width=200)
+    # st.image(image=image4, width=200)
 # with st.chat_message(name="assistant"):
 #     st.write("Hello")output
