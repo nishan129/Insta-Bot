@@ -7,8 +7,8 @@ from diffusers import StableDiffusionXLPipeline, DPMSolverSinglestepScheduler
 # image = Image.open("")
 
 # # Load model.
-pipe = StableDiffusionXLPipeline.from_pretrained("sd-community/sdxl-flash", torch_dtype=torch.float16).to("cuda")
-pipe.scheduler = DPMSolverSinglestepScheduler.from_config(pipe.scheduler.config, timestep_spacing="trailing")
+# pipe = StableDiffusionXLPipeline.from_pretrained("sd-community/sdxl-flash", torch_dtype=torch.float16).to("cuda")
+# pipe.scheduler = DPMSolverSinglestepScheduler.from_config(pipe.scheduler.config, timestep_spacing="trailing")
 
 
 st.title("Social Media Blog and Post")
@@ -33,8 +33,8 @@ if prompt := st.chat_input("Write Your Topic"):
     
     responce = f"Echo: {result}"
     split_prompts = [prompt.strip() for prompt in result2.split("\n") if result2.strip()]
-    for i in split_prompts:
-        pipe(i, num_inference_steps=7, guidance_scale=3).images[0].save("output/output"+f"{i[0:1]}"+".png")
+    # for i in split_prompts:
+    #     pipe(i, num_inference_steps=7, guidance_scale=3).images[0].save("output/output"+f"{i[0:1]}"+".png")
     with st.chat_message(name="assistant"):
         st.markdown(responce)
         
