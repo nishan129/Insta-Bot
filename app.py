@@ -40,9 +40,9 @@ if prompt := st.chat_input("Write Your Topic"):
         st.markdown(responce)
         
     st.session_state.messages.append({"role": "assistant", "content":responce})
-    image = Image.open("output/output.png")
-    image1 = Image.open("output/output2.png")
-    image2 = Image.open("output/output3.png")
+    image = Image.open("output/output.jpeg")
+    image1 = Image.open("output/output2.jpeg")
+    image2 = Image.open("output/output3.jpeg")
     #image3 = Image.open("output/output4.png")
     #image4 = Image.open("output/output5.png")
     st.image(image,width=200)
