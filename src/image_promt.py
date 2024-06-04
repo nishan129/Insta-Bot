@@ -9,7 +9,7 @@ class ImagePrompt():
     tasks_config = "instabot/config/task.yaml"
     
     def __init__(self) -> None:
-        self.llm = ChatGroq(temperature=0, model_name='mixtral-8x7b-32768', groq_api_key = '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')
+        self.llm = ChatGroq(temperature=0, model_name='mixtral-8x7b-32768', groq_api_key = 'gsk_AAuycjZ7SYWPaLzIn9SKO')
         
     @agent
     def prompt_engg(self) -> Agent:
