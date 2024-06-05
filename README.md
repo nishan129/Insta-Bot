@@ -13,8 +13,9 @@ Welcome to Insta-Bot, a sophisticated blog and post generator designed to harnes
 
 ```
 git clone https://github.com/nishan129/Insta-Bot.git
+cd Insta-Bot
  ```
-``` cd Insta-Bot ```
+ 
 
 2. Install dependencies
 ``` pip install -r requirements.txt ```
