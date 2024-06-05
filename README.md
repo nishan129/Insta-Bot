@@ -11,7 +11,9 @@ Welcome to Insta-Bot, a sophisticated blog and post generator designed to harnes
 ### Installation
 1. Clone the repository
 
-``` git clone https://github.com/nishan129/Insta-Bot.git ```
+```
+git clone https://github.com/nishan129/Insta-Bot.git
+ ```
 ``` cd Insta-Bot ```
 
 2. Install dependencies
