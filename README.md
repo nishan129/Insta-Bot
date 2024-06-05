@@ -18,16 +18,22 @@ cd Insta-Bot
  
 
 2. Install dependencies
-``` pip install -r requirements.txt ```
+```
+pip install -r requirements.txt
+```
 
-3. Change you Chatgroq API key
+4. Change you Chatgroq API key 
 
-4. Run
-``` streamlit run app.py ```
+5. Run
+```
+ streamlit run app.py
+ ```
 Access the app:
 After running the above command, Streamlit will start a local server. You can access the app in your web browser at:
 
-``` http://localhost:8501 ```
+``` 
+http://localhost:8501
+ ```
 
 ### Usage
 Once the app is running in your web browser, you can:
