@@ -8,6 +8,8 @@ Welcome to Insta-Bot, a sophisticated blog and post generator designed to harnes
 * Automated Content Creation: Automatically generates engaging blog posts and Instagram captions.
 * Customizable Parameters: Easily adjust settings to match your content style and preferences.
 
+![WhatsApp Image 2024-06-06 at 06 46 12_cc85b075](https://github.com/nishan129/Insta-Bot/assets/107128913/bb6ebb78-ee55-463d-91a0-d1fc325a86c1)
+
 ![WhatsApp Image 2024-06-06 at 06 46 13_0097d534](https://github.com/nishan129/Insta-Bot/assets/107128913/a4ff8a60-ff21-424c-b954-b5109e756eb0)
 
 ### Installation
